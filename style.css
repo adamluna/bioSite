@@ -80,6 +80,12 @@ p {
     margin: 10px;
   }
 
+.footer {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Spectral', serif;
+}
+
 /*Images*/
 .image-center {
     display: flex;
