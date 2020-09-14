@@ -1,0 +1,109 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Spectral:wght@300;400;600&display=swap');
+
+body {
+    background-color: #DCD6F7;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #424874;
+    font-size: 1.953em;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    color: #424874;
+    font-size: 1.563em;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #424874;
+    font-size: 1.25em;
+}
+
+.column1 {
+    float: left;
+    width: 620px;
+    height: auto;
+    margin: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Spectral', serif;
+    vertical-align: auto;
+    font-size: 1em;
+}
+
+.family {
+    background-color: #F4EEFF;
+    width: 500px;
+    height: 359px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+.education {
+    background-color: #F4EEFF;
+    width: 500px;
+    height: 359px;
+    padding: 20px;
+    margin: 10px;
+  }
+ 
+.career {
+    background-color: #F4EEFF;
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+.hobbies {
+    background-color: #F4EEFF;
+    width: 500px;
+    height: 425px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+/*Images*/
+.image-center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+img.family {
+    width: 500px;
+    height: 359px;
+}
+
+img.education {
+    width: 500px;
+    height: 359px;
+}
+
+img.career {
+    width: 500px;
+    height: 450px;
+}
+
+img.hobbies {
+    width: 500px;
+    height: 425px;
+}
