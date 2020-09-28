@@ -28,7 +28,7 @@ h3 {
     font-size: 1.25em;
 }
 
-.column1 {
+/* .column1 {
     float: left;
     width: 620px;
     height: auto;
@@ -40,7 +40,7 @@ h3 {
     width: 300px;
     height: auto;
     margin: 10px;
-}
+} */
 
 p {
     font-family: 'Spectral', serif;
@@ -48,37 +48,53 @@ p {
     font-size: 1em;
 }
 
+a {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+a:hover {
+    color: #424874;
+}
+
 .family {
     background-color: #F4EEFF;
-    width: 500px;
-    height: 359px;
+    width: max-width;
+    height: flex;
     padding: 20px;
     margin: 10px;
+    text-align: center;
   }
 
 .education {
     background-color: #F4EEFF;
-    width: 500px;
-    height: 359px;
+    width: max-width;
+    height: flex;
     padding: 20px;
     margin: 10px;
+    text-align: center;
   }
  
 .career {
     background-color: #F4EEFF;
-    width: 500px;
-    height: 450px;
+    width: max-width;
+    height: flex;
     padding: 20px;
     margin: 10px;
+    text-align: center;
   }
 
 .hobbies {
     background-color: #F4EEFF;
-    width: 500px;
-    height: 425px;
+    width: max-width;
+    height: flex;
     padding: 20px;
     margin: 10px;
+    text-align: center;
   }
+
+.top {
+    text-align: right;
+}
 
 .footer {
     text-align: center;
@@ -94,7 +110,7 @@ p {
     margin: 0;
 }
 
-img.family {
+/* img.family {
     width: 500px;
     height: 359px;
 }
@@ -112,4 +128,4 @@ img.career {
 img.hobbies {
     width: 500px;
     height: 425px;
-}
+} */
