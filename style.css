@@ -13,6 +13,28 @@ body {
     font-size: 1.953em;
 }
 
+#navbar {
+    background-color: #F4EEFF;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 12px #424874;
+    width: max-width;
+    margin: auto;
+    list-style-type: none;
+}
+
+#navbar a {
+    display: block;
+    color: #424874;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #DCD6F7;
+    color: #4F3674;
+}
+
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -27,20 +49,6 @@ h3 {
     color: #424874;
     font-size: 1.25em;
 }
-
-/* .column1 {
-    float: left;
-    width: 620px;
-    height: auto;
-    margin: 10px;
-}
-
-.column2 {
-    float: left;
-    width: 300px;
-    height: auto;
-    margin: 10px;
-} */
 
 p {
     font-family: 'Spectral', serif;
@@ -92,6 +100,10 @@ a:hover {
     text-align: center;
   }
 
+.bottom {
+    text-align: center;
+}
+
 .top {
     text-align: right;
 }
@@ -110,22 +122,26 @@ a:hover {
     margin: 0;
 }
 
-/* img.family {
-    width: 500px;
-    height: 359px;
+#image-family {
+    width: 600px;
+    height: 400px;
 }
 
-img.education {
-    width: 500px;
-    height: 359px;
+#image-education {
+    width: 600px;
+    height: 560px;
 }
 
-img.career {
-    width: 500px;
-    height: 450px;
+#image-career {
+    width: 600px;
+    height: 600px;  
 }
 
-img.hobbies {
-    width: 500px;
-    height: 425px;
-} */
+#image-hobbies {
+    width: 600px;
+    height: 600px;
+}
+
+#image-bottom {
+    width: 600px;
+    height: 600px;
